@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+<style>
+BODY {
+    background-color: #5a5a5a;
+}
+ 
+h1 {color: rgb(202, 2, 2);}
+ 
+#texto {
+    color: red;
+}
+ 
+</style>
+ 
+    <h1 id = "texto" > CURRÍCULO SAMUEL</h1>
+    <h2> OBJETIVO:   </h2>
+ 
+    <p>
+        Meu objetivo é me estabelecer dentro da área de Tecnologia, tendo foco principal no segmento de T.I. Na qual eu já faço um Curso Técnico
+         que vissa esse aprofundamento de conhecimento prévio.
+    </p>
+   
+ 
+    <h1> UM POUCO SOBRE MIM      
+                         </h1>
+ 
+    <p>
+        Sou estudante da área de Tecnologia da Informação, atualmente cursando um técnico voltado para aprofundar meus conhecimentos em T.I. <br> Tenho interesse em desenvolvimento de soluções inovadoras e estou sempre buscando aprender novas ferramentas e práticas para evoluir profissionalmente.
+ 
+    </p>
+
+    <h1> EXPERIÊNCIAS </h1>
+
+    <p> 
+        Curso Técnico em Informática <br> Instituição: Senac <br> Período: 2024 – 2026 <br> Aprendizado em redes, sistemas operacionais e desenvolvimento de software. Projetos práticos envolvendo HTML, CSS e JavaScript.
+    </p>
+
+    <h1> </h1>
+ 
+    <script>
+        const texto = document.getElementById("texto");
+   
+        function mudar() {
+            if (texto.style.color === "red") {
+                texto.style.color = "blue";
+            } else {
+                texto.style.color = "red";
+            }
+        }
+   
+        texto.addEventListener("click", mudar);
+ 
+    </script>
+   
+</body>
+</html>
