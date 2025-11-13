@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: blue;
+        color: white;
+    }
+    h2 {
+        color: yellow;
+        
+    }
+
+    .carros {
+        color:red;
+    }
+
+    #texto {
+        color: white;
+    }
+
+
+</style>
+<body>
+    <h2 id = "texto" >Olá Samuel</h2>
+    <h2>Olá Nathan</h2>
+    <h2 class = "carros">Celta</h2>
+    <h2 class = "carros">Gol</h2>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quasi illum cupiditate veniam repellendus omnis! Saepe amet tempore, commodi assumenda totam aspernatur fugit repudiandae. Perferendis sit porro facilis quo nihil.
+    </p>
+    <script>
+
+
+            function mudar() {
+            if (texto.style.color == "white")
+            texto.style.color = "red";
+            else {
+            texto.style.color = "white";
+            }
+        }
+
+        texto.addEventListener("click", mudar)
+    </script>
+</body>
+</html>
